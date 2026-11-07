@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" width="100%" height="100%">
+  <!-- BARBER COMB (Angled from top-right to bottom-left) -->
+  <g transform="rotate(32 200 180)">
+    <!-- Comb Spine & Handle -->
+    <path d="M 180 50 L 220 50 C 224 50, 226 53, 226 56 L 226 310 C 226 313, 224 316, 220 316 L 180 316 C 176 316, 174 313, 174 310 L 174 56 C 174 53, 176 50, 180 50 Z" fill="#111827" />
+    
+    <!-- Comb Fine Teeth -->
+    <line x1="226" y1="70" x2="278" y2="70" stroke="#111827" stroke-width="7" stroke-linecap="round" />
+    <line x1="226" y1="84" x2="278" y2="84" stroke="#111827" stroke-width="7" stroke-linecap="round" />
+    <line x1="226" y1="98" x2="278" y2="98" stroke="#111827" stroke-width="7" stroke-linecap="round" />
+    <line x1="226" y1="112" x2="278" y2="112" stroke="#111827" stroke-width="7" stroke-linecap="round" />
+    <line x1="226" y1="126" x2="278" y2="126" stroke="#111827" stroke-width="7" stroke-linecap="round" />
+    <line x1="226" y1="140" x2="278" y2="140" stroke="#111827" stroke-width="7" stroke-linecap="round" />
+    <line x1="226" y1="154" x2="278" y2="154" stroke="#111827" stroke-width="7" stroke-linecap="round" />
+    <line x1="226" y1="168" x2="278" y2="168" stroke="#111827" stroke-width="7" stroke-linecap="round" />
+    <line x1="226" y1="182" x2="278" y2="182" stroke="#111827" stroke-width="7" stroke-linecap="round" />
+    <line x1="226" y1="196" x2="278" y2="196" stroke="#111827" stroke-width="7" stroke-linecap="round" />
+    <line x1="226" y1="210" x2="278" y2="210" stroke="#111827" stroke-width="7" stroke-linecap="round" />
+    <line x1="226" y1="224" x2="278" y2="224" stroke="#111827" stroke-width="7" stroke-linecap="round" />
+    <line x1="226" y1="238" x2="278" y2="238" stroke="#111827" stroke-width="7" stroke-linecap="round" />
+  </g>
+
+  <!-- STYLING SCISSORS (Diagonal crossing from top-left to bottom-right) -->
+  <g>
+    <!-- Upper Blade -->
+    <path d="M 125 65 L 195 180 L 186 186 L 115 72 Z" fill="#111827" />
+    <!-- Lower Blade Tip -->
+    <path d="M 190 186 L 245 100 L 235 94 L 182 180 Z" fill="#111827" />
+
+    <!-- Center Pivot Screw -->
+    <circle cx="190" cy="183" r="8" fill="#FFFFFF" />
+    <circle cx="190" cy="183" r="4.5" fill="#111827" />
+
+    <!-- Left Shank -->
+    <path d="M 186 186 C 176 210, 158 235, 138 252 L 132 246 C 148 228, 164 210, 176 186 Z" fill="#111827" />
+    <!-- Left Finger Ring -->
+    <circle cx="130" cy="285" r="32" stroke="#111827" stroke-width="12" fill="none" />
+
+    <!-- Right Shank -->
+    <path d="M 195 180 C 215 204, 234 228, 248 246 L 242 252 C 230 234, 210 210, 190 186 Z" fill="#111827" />
+    <!-- Right Finger Ring -->
+    <circle cx="260" cy="278" r="32" stroke="#111827" stroke-width="12" fill="none" />
+    <!-- Curved Finger Tang / Rest -->
+    <path d="M 288 288 C 304 294, 314 304, 320 314 C 314 314, 304 306, 288 300 Z" fill="#111827" />
+  </g>
+
+  <!-- TYPOGRAPHY: FINE LOOK -->
+  <text x="200" y="388" text-anchor="middle" fill="#111827" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="46" letter-spacing="1">FINE LOOK</text>
+
+  <!-- TYPOGRAPHY: — SALON — -->
+  <g>
+    <line x1="110" y1="422" x2="148" y2="422" stroke="#4B5563" stroke-width="1.8" />
+    <text x="200" y="428" text-anchor="middle" fill="#4B5563" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="20" letter-spacing="8">SALON</text>
+    <line x1="252" y1="422" x2="290" y2="422" stroke="#4B5563" stroke-width="1.8" />
+  </g>
+</svg>
